@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .aside {
     display: flex;
     justify-content: center;
