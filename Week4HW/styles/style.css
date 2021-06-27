@@ -1,0 +1,124 @@
+.link {
+    text-decoration: none;
+    position: absolute;
+    width: 133px;
+    height: 100px;
+    top: 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    width: 998px;
+    height: 139px;
+    left: 222px;
+    top: 340px;
+    justify-content: center;
+
+    font-family: Jost;
+    font-size: 96px;
+    line-height: 0px;
+    color: #FFFFFF;
+
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5 {
+    position: absolute;
+    width: 1440px;
+    height: 18.39px;
+    top: 326px;
+    justify-content: center;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+.action {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: 515px;
+    justify-content: center;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.action:hover {
+    cursor: pointer;
+}
+
+.book {
+    background-color: #E8C300;
+    color: white;
+    left: 501px;
+}
+
+.explore {
+    background-color: transparent;
+    color: white;
+    left: 741px;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 645px;
+    top: 25px;
+}
+
+.btns-social button:nth-child(n) {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1301px;
+    top: 420px;
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.btns-social button:first-child {
+    top: 340px;
+}
+
+.btns-social button:last-child {
+    top: 500px;
+}
+
+.down {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 690px;
+    top: 657px;
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+}

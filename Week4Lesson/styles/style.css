@@ -1,0 +1,96 @@
+h2 {
+    color: blue;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 16pt;
+    color: #000033;
+}
+
+h2 {
+    font-size: 14pt;
+    color: #333333;
+}
+
+img {
+    width: 50vw;
+    border-radius: 15px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+#wiki {
+    color: red;
+}
+
+#mainmenu .menu {
+    color: violet;
+
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    color: red;
+}
+
+#logo {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid black;
+    opacity: 0, 5;
+    box-shadow: 0 0 10px black;*/
+}
+
+#companyname {
+    margin: 20px;
+    font-family: 'Playfair Display', Times, serif;
+}
+
+.polling_message {
+    color: white;
+    float: left;
+    margin-right: 2%;
+}
+
+.view_port {
+    background-color: black;
+    height: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cylon_eye {
+    background-color: red;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+
+    animation: 4s linear 0s infinite alternate move_eye;
+}
+
+
+@keyframes move_eye {
+    from {
+        margin-left: -20%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}

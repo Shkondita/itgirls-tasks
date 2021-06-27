@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="script.php" method="POST">
+        <h1>Регистрация</h1>
+        <label for="secondname">Имя</label>
+            <div><input type="text" id="secondname"/></div>
+        <label for="firstname">Фамилия</label>
+            <div><input type="text" id="firstname"/></div>
+        <label for="login">Придумайте логин</label>
+            <div><input type="text" id="login"/></div>
+        <fieldset>
+            <legend>Пароли</legend>
+                <label for="password1">Придумайте пароль</label>
+                    <div><input type="password" id="password1"/></div>
+                <label for="password2">Повторите пароль</label>
+                    <div><input type="password" id="password2"/></div>
+        </fieldset>
+        <label for="number">Номер мобильного телефона</label>
+            <div> <input type="text" id="number"/></div>
+        <label for="male">Укажите ваш пол</label><br/>
+            Женский <div> <input type="radio" name="sex"/></div>
+            Мужской <div> <input type="radio" name="sex"/></div>
+        <button>Зарегистрироваться</button>
+        <div>Нажмите кнопку "Зарегистрироваться"
+            <div>
+                <input type="checkbox">Я принимаю условия <a href="">Пользовательского соглашения</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
