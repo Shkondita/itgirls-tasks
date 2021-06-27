@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Open+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Document</title>
+    <style>
+        .link {
+            text-decoration: none;
+            width: 133px;
+            height: 100px;
+
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 18px;
+            color: #FFFFFF;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .h {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-family: Jost;
+            font-size: 96px;
+            line-height: 0px;
+            color: #FFFFFF;
+
+            display: flex;
+            align-items: center;
+        }
+
+        h5 {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+
+        .all {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            height: 250px;
+            margin-top: 150px;
+        }
+
+        .action {
+            width: 200px;
+            height: 60px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .bttn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .book {
+            background-color: #E8C300;
+            color: white;
+        }
+
+        .explore {
+            background-color: transparent;
+            color: white;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin-top: 1rem;
+        }
+
+        .line {
+            width: 60px;
+            height: 5.11px;
+
+            background: #E8C300;
+            border-radius: 50px;
+        }
+
+        .btns-social {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            right: 0;
+            justify-content: space-around;
+            margin-right: 80px;
+            height: 100%;
+        }
+
+        .btns-social button:nth-child(n) {
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border-width: 0;
+            cursor: pointer;
+        }
+
+        .downd {
+            display: flex;
+            justify-content: center;
+            margin-top: 83px;
+        }
+
+        .down {
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border-width: 0px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        style="background-image: url('assets/images/foto.jpg');height: 1000px;width: 100%;background-repeat: no-repeat;background-size: 100%;">
+        <header class="header">
+            <a class="link" href=""><span>HOME</span></a>
+            <a class="link" href=""><span>ABOUT</span></a>
+            <a class="link" href=""><span>TEAM</span></a>
+            <a class="link" href=""><span>BOOKING</span></a>
+            <img class="logo" src="assets/images/logo.svg" alt="logo">
+            <a class="link" href=""><span>MENU</span></a>
+            <a class="link" href=""><span>GALERIE</span></a>
+            <a class="link" href=""><span>EVENTS</span></a>
+            <a class="link" href=""><span>CONTACT</span></a>
+        </header>
+
+        <div class="all">
+            <div class="btns-social">
+                <button class="btn-social"><img src="assets/images/facebook.png" alt="facebook"></button>
+                <button class="btn-social"><img src="assets/images/twitter.png" alt="twitter"></button>
+                <button class="btn-social"><img src="assets/images/instagram.png" alt="instagram"></button>
+            </div>
+
+            <div class="h">
+                <h5>RESTAURANT</h5>
+                <h1>HUNGRY PEOPLE</h1>
+                <div class="line"></div>
+            </div>
+
+            <div class="bttn">
+                <button class="action book">BOOK TABLE</button>
+                <button class="action explore">EXPLORE</button>
+            </div>
+        </div>
+
+        <div class="downd">
+            <button class="down">
+                <img src="assets/images/down-btn.png" alt="down">
+            </button>
+        </div>
+    </div>
+</body>
+
+
+
+</html>
