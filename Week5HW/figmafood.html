@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Open+Sans:wght@700&display=swap"
-        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <title>Document</title>
     <style>
@@ -155,12 +154,88 @@
             border-width: 0px;
             cursor: pointer;
         }
+
+        .allsecond {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 675px;
+            width: 100%;
+        }
+
+        .secondpage {
+            width: 89%;
+            height: 475px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .picsecond {
+            /* float: right; */
+            width: 50%;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 50%;
+
+        }
+
+        .tbig {
+            font-family: Jost;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            color: #000000;
+        }
+
+        .linetwo {
+            width: 60px;
+            height: 5.11px;
+
+            background: #E8C300;
+            border-radius: 50px;
+        }
+
+        .tsmall {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 28px;
+
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+
+            color: #000000;
+        }
+
+        .tsmaller {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+
+            color: #000000;
+        }
     </style>
 </head>
 
 <body>
     <div
-        style="background-image: url('assets/images/foto.jpg');height: 1000px;width: 100%;background-repeat: no-repeat;background-size: 100%;">
+        style="background-image: url('assets/images/foto.jpg');height: 800px;width: 100%;background-repeat: no-repeat;background-size: 100%;">
         <header class="header">
             <a class="link" href=""><span>HOME</span></a>
             <a class="link" href=""><span>ABOUT</span></a>
@@ -198,6 +273,21 @@
             </button>
         </div>
     </div>
+
+    <div class="allsecond">
+        <div class="secondpage">
+            <div class="text">
+                <h2 class="tbig">ABOUT US</h2>
+                <div class="linetwo"></div><br>
+                <div class="tsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.</div><br>
+                <div class="tsmaller">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                    ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                    lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                    laoreet.</div>
+            </div>
+            <img class="picsecond" src="assets/images/Group.png" alt="picsecond">
+        </div>
 </body>
 
 
