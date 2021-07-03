@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <title>Document</title>
@@ -173,7 +172,6 @@
         }
 
         .picsecond {
-            /* float: right; */
             width: 50%;
         }
 
@@ -229,6 +227,104 @@
             text-align: center;
 
             color: #000000;
+        }
+
+        .smtext {
+            font-family: Open Sans;
+            font-style: normal;
+            font-size: 12px;
+            line-height: 14px;
+            width: 1440px;
+            height: 100px;
+            left: 0px;
+            top: 1475px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 0.5em;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+        .gorizont {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .pichef {
+            width: 50%;
+        }
+
+        .textchef {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin-right: 100px;
+        }
+
+        .tbigchef {
+            font-family: Jost;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+
+        .linetwo {
+            width: 60px;
+            height: 5.11px;
+
+            background: #E8C300;
+            border-radius: 50px;
+        }
+
+        .tsmallchef {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 28px;
+
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        .tsmallerchef {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        .lastwhite {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 675px;
+            width: 100%;
+        }
+
+        .lasttext {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -288,6 +384,46 @@
             </div>
             <img class="picsecond" src="assets/images/Group.png" alt="picsecond">
         </div>
+    </div>
+
+    <div
+        style="background-image: url('assets/images/secondbg.png');height: 676px;width: 100%;background-repeat: no-repeat;background-size: 100%;">
+        <div class="smtext">OUR TEAM</div>
+        <div class="gorizont">
+            <div class="textchef">
+                <h2 class="tbigchef">MASTER CHEF</h2>
+                <div class="linetwo"></div><br>
+                <div class="tsmallchef">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie
+                    est a, tempor magna.</div><br>
+                <div class="tsmallerchef">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi
+                    non
+                    ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                    lorem
+                    quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </div>
+            </div>
+            <img class="pichef" src="assets/images/woman.png" alt="picsecond">
+        </div>
+    </div>
+
+    <div class="lastpage">
+        <img src="assets/images/PhotoGalerie.png" alt="GALERIE">
+        <div class="lastwhite">
+            <div class="lasttext">
+                <h2 class="lastbig">CONTACT</h2>
+                <div class="linetwo"></div><br>
+                <div class="lasttsmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.</div><br>
+            </div>
+            <div class="windows">
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
 </body>
 
 
