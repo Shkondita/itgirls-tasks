@@ -19,6 +19,13 @@
     text-decoration: underline;
 }
 
+.firstimg {
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -99,7 +106,7 @@ h5 {
 .logo {
     width: 150px;
     height: 150px;
-    margin-top: 1rem;
+    margin-top: 20px;
 }
 
 .line {
