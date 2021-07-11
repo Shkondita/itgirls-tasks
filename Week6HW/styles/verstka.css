@@ -1,0 +1,89 @@
+.container {
+    display: grid;
+    width: 75%;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 2fr 8fr 4fr;
+    font-weight: bold;
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/6;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.scontent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+        "title title"
+        "vcontent content"
+        "contents contents";
+    background-color: rgb(255, 249, 226);
+    gap: 20px;
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+    grid-area: title;
+    margin-top: 15px;
+}
+
+.vcontent {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: vcontent;
+    background-color: rgb(255, 236, 182);
+    margin-left: 20px;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: content;
+    background-color: rgb(255, 236, 182);
+    margin-right: 20px;
+}
+
+.contents {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: contents;
+    background-color: rgb(255, 236, 182);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sidebar {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(215, 239, 203);
+    padding-top: 15px;
+}
+
+.sfooter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    grid-column: 1/6;
+    background-color: rgb(224, 224, 224);
+    gap: 25px;
+    padding: 20px;
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
