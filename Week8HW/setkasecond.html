@@ -11,15 +11,16 @@
 
     <style>
         div {
-            background-color: rgb(69, 112, 194);
             color: white;
         }
 
         .rowCustom {
+            background-color: rgb(69, 112, 194);
             height: 300px;
         }
 
         .rowCustoms {
+            background-color: rgb(69, 112, 194);
             height: 100px;
         }
     </style>
@@ -27,24 +28,30 @@
 
 <body>
     <div class="container">
-        <div class="row m-2 rowCustom">
-            <div class="col-sm-6 align-self-center">Gallery</div>
+        <div class="row my-2" style="height: 300px;">
+            <div class="col-sm-6 d-flex justify-content-center align-items-center"
+                style="background-color: rgb(69, 112, 194); height: 100%">Gallery
+            </div>
             <div class="col-sm-6">
-                <div class="row" style="height: 20%;">
-                    <div class="col-sm-12 align-self-center">Title</div>
-                </div>
-                <div class="row" style="height: 80%;">
-                    <div class="col-sm-12  mb-2 align-self-center">Buy Box</div>
+                <div class="ml-2" style="height: 100%;">
+                    <div class="row rowCustom" style="height: 20%;">
+                        <div class="col-sm-12 d-flex justify-content-center align-items-center">Title</div>
+                    </div>
+                    <div class="row pt-2" style="height: 80%;">
+                        <div class="col-sm-12 d-flex justify-content-center align-items-center"
+                            style="background-color: rgb(69, 112, 194); height: 100%;">Buy Box
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class=" row rowCustoms">
-            <div class="col-sm-12 align-self-center">Description</div>
+        <div class=" row mb-2 rowCustoms">
+            <div class="col-sm-12 d-flex justify-content-center align-items-center">Description</div>
         </div>
 
         <div class="row rowCustoms">
-            <div class="col-sm-12 align-self-center">Related</div>
+            <div class="col-sm-12 d-flex justify-content-center align-items-center">Related</div>
         </div>
     </div>
 
