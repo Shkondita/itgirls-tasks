@@ -1,0 +1,401 @@
+.profile {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilee {
+    width: 100%;
+    height: 48px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+}
+
+.profileprofile {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    margin-left: 24px;
+}
+
+.profileback {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 24px;
+
+    color: #4F4F4F;
+}
+
+.bi-search {
+    margin-right: 24px;
+}
+
+.bi-basket3 {
+    margin-right: 24px;
+}
+
+.bi {
+    color: #53889D;
+}
+
+
+.jessicajessica {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.jessicamapleton {
+    width: 128px;
+    height: 131px;
+}
+
+.jessicatextbig {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.jessicatextmedium {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+
+    color: #828282;
+}
+
+.jessicatextsmall {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: #4F4F4F;
+}
+
+.jessicatextnumbers {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.jessicafol {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    height: 44px;
+}
+
+.jessicafollowers {
+    margin-left: 44px;
+}
+
+.jessicafollowing {
+    margin-right: 44px;
+}
+
+.favorite {
+    height: 124px;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.favoritegenres {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #333333;
+}
+
+.favbutbluesmall {
+    width: 79px;
+    height: 24px;
+
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.favbutpinksmall {
+    width: 81px;
+    height: 24px;
+
+    background: linear-gradient(90deg, #F3A492 0%, #D96F6E 100%), #C4C4C4;
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.favbutyellowpinkmedium {
+    width: 123px;
+    height: 24px;
+
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.favbutyellowpinkbig {
+    width: 149px;
+    height: 24px;
+
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.favbutblueyellowsmall {
+    width: 87px;
+    height: 24px;
+
+    background: linear-gradient(90deg, #BBD1D9 0%, #F2D05C 92.86%);
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.favbutpinkyellowbig {
+    width: 173px;
+    height: 24px;
+
+    background: linear-gradient(90deg, #D96F6E 0%, #F2D05C 100%);
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.favbutbluemedium {
+    width: 102px;
+    height: 24px;
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
+    border: inherit;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 8px;
+
+    color: #FFFFFF;
+}
+
+.purchasedpurchased {
+    width: 180px;
+    height: 20px;
+    margin-left: 24px;
+}
+
+.purchasedbooks {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 32px;
+
+    color: #000000;
+}
+
+.purchasednineteen {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+
+    color: #53889D;
+}
+
+.purchasedpics {
+    display: flex;
+    overflow-x: auto;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.purchasedpic {
+    width: 100%;
+    height: 100%;
+}
+
+.purchasedtextbig {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    padding-left: 8px;
+
+    color: #000000;
+}
+
+.purchasedtextsmall {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    padding-left: 8px;
+
+    color: #4F4F4F;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.viewview {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    text-decoration: underline;
+
+    color: #D96F6E;
+}
+
+.wishlist {
+    margin-top: 48px;
+    margin-left: 24px;
+}
+
+.wishlisttext {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #333333;
+}
+
+.wishlistnumber {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+
+    color: #53889D;
+}
+
+.wishlistpics {
+    margin-left: -8px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer {
+    width: 100%;
+    height: 56px;
+
+    background: #FFFFFF;
+    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+    margin-top: 48px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content {
+    max-width: 780px;
+    width: 100%;
+}

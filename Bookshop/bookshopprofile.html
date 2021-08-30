@@ -18,64 +18,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-
-    <style>
-        .bookpage {
-            width: 100%;
-        }
-
-        .book {
-            width: 100%;
-            height: 48px;
-
-            background: #FFFFFF;
-            box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
-        }
-
-        .bookbook {
-            display: flex;
-            justify-content: space-between;
-            padding-top: 13px;
-            margin-left: 24px;
-        }
-
-        .bi-search {
-            margin-right: 24px;
-        }
-
-        .bi-basket3 {
-            margin-right: 24px;
-        }
-
-        .bi {
-            color: #53889D;
-        }
-
-
-
-
-        .footer {
-            width: 100%;
-            height: 56px;
-
-            background: #FFFFFF;
-            box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
-            margin-top: 48px;
-
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/bookshopprofile.css">
 </head>
 
-<div class="bookpage">
+<div class="profile">
 
-    <div class="book">
-        <div class="bookbook">
-            <img src="assets/chevron-left.png" alt="arrowback">
+    <div class="profilee">
+        <div class="profileprofile">
+            <div class="profileback">
+                <div class="profilebackback">Profile</div>
+            </div>
 
-            <div class="bookbi">
+            <div class="profilebi">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
                     viewBox="0 0 16 16">
                     <path
@@ -90,14 +44,119 @@
         </div>
     </div>
 
-</div>
+    <div class="content">
+        <div class="jessica">
+            <div class="jessicajessica">
+                <img class="jessicamapleton" src="assets/Jessica.png" alt="Jessica Mapleton">
+            </div>
 
-<div class="footer">
-    <img class="footerimg" src="assets/home.png" alt="home">
-    <img class="footerimg" src="assets/browse.png" alt="browse">
-    <img class="footerimg" src="assets/wishlist.png" alt="wishlist">
-    <img class="footerimg" src="assets/profile.png" alt="profile">
-</div>
+            <div class="jessicatext">
+                <h1 class="jessicatextbig">Jessica Mapleton</h1>
+                <h2 class="jessicatextmedium">Cape Town, South Africa</h2>
+
+                <div class="jessicafol">
+                    <div class="jessicafollowing">
+                        <h3 class="jessicatextsmall">Following</h3>
+                        <h1 class="jessicatextnumbers">2,1k</h1>
+                    </div>
+
+                    <div class="jessicafollowers">
+                        <h3 class="jessicatextsmall">Followers</h3>
+                        <h1 class="jessicatextnumbers">945k</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="favorite">
+            <div class="favoritefavorite">
+                <h3 class="favoritegenres">Favorite Genres</h3>
+            </div>
+
+            <div class="favoritebutton">
+                <button class="favbutbluesmall">African</button>
+                <button class="favbutpinksmall">Classics</button>
+                <button class="favbutyellowpinkmedium">Contemporary</button>
+                <button class="favbutyellowpinkbig">Feminst Literature</button>
+                <button class="favbutblueyellowsmall">Memoirs</button>
+                <button class="favbutpinkyellowbig">Psychological Thrillers</button>
+                <button class="favbutbluemedium">True Crime</button>
+            </div>
+        </div>
+
+        <div class="purchased">
+            <div class="purchasedpurchased">
+                <h1 class="purchasedbooks">Purchased Books <span class="purchasednineteen">19</span></h1>
+            </div>
+
+            <div class="purchasedpics">
+                <div class="purchasedpic">
+                    <img class="purchasedimg" src="assets/littlefires.png" alt="Little Fires Everywhere" />
+                    <h2 class="purchasedtextbig">Little Fires <br /> Everywhere</h2>
+                    <h3 class="purchasedtextsmall">Celeste Ng</h3>
+                </div>
+
+                <div class="purchasedpic">
+                    <img class="purchasedimg" src="assets/prettyhorses.png" alt="All the Pretty Horses" />
+                    <h2 class="purchasedtextbig">All the Pretty <br /> Horses</h2>
+                    <h3 class="purchasedtextsmall">Cormac McCarthy</h3>
+                </div>
+
+                <div class="purchasedpic">
+                    <img class="purchasedimg" src="assets/tale.png" alt="The Handmaid’s Tale" />
+                    <h2 class="purchasedtextbig">The Handmaid’s <br /> Tale</h2>
+                    <h3 class="purchasedtextsmall">Margaret Atwood</h3>
+                </div>
+
+                <div class="purchasedpic">
+                    <img class="purchasedimg" src="assets/gatsby.png" alt="The Great Gatsby" />
+                    <h2 class="purchasedtextbig">The Great <br /> Gatsby</h2>
+                    <h3 class="purchasedtextsmall">F. Scott Fitzgerald</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="view">
+            <h3 class="viewview">View all Purchased Books ></h3>
+        </div>
+
+        <div class="wishlist">
+            <div class="wishlistwishlist">
+                <h1 class="wishlisttext">Wishlist <span class="wishlistnumber">24</span></h1>
+            </div>
+
+            <div class="container wishlistpics">
+                <div class="row no-gutters">
+                    <div class="col-4">
+                        <img class="wishlistimg" src="assets/worldrequireyou.png" alt="The world doesn't require you">
+                        <img class="wishlistimg" src="assets/happy.png" alt="Furiously happy">
+                    </div>
+                    <div class="col-4">
+                        <img class="wishlistimg" src="assets/underground.png" alt="Underground railroad">
+                        <img class="wishlistimg" src="assets/bernadette.png" alt="Bernadette">
+
+                    </div>
+                    <div class="col-4">
+                        <img class="wishlistimg" src="assets/louise.png" alt="Louis and Louise">
+                        <img class="wishlistimg" src="assets/educated.png" alt="Educated">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="view">
+            <h3 class="viewview">View all Wishlist Books ></h3>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="bookshophomepage.html">
+            <img class="footerimg" src="assets/home.png" alt="home">
+        </a>
+        <img class="footerimg" src="assets/browse.png" alt="browse">
+        <img class="footerimg" src="assets/wishlist.png" alt="wishlist">
+        <img class="footerimg" src="assets/profiledark.png" alt="profile">
+    </div>
 
 </div>
 

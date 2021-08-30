@@ -1,5 +1,9 @@
 .homepage {
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home {
@@ -241,6 +245,11 @@
     text-align: center;
 
     color: #4F4F4F;
+}
+
+.content {
+    max-width: 780px;
+    width: 100%;
 }
 
 .footer {
