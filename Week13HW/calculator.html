@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="btns">
+        <button onclick="add()" id="sumid">+</button>
+        <button onclick="sub()" id="minus">-</button>
+        <button onclick="mul()" id="umnozenie">x</button>
+        <button onclick="div()" id="delenie">/</button>
+    </div>
+
+    <script>
+        function add() {
+            let a = prompt("Первое число?", 0);
+            let b = prompt("Второе число?", 0);
+            alert(Number(a) + Number(b));
+        }
+
+        function sub() {
+            let a = prompt("Первое число?", 0);
+            let b = prompt("Второе число?", 0);
+            alert(Number(a) - Number(b));
+        }
+
+        function mul() {
+            let a = prompt("Первое число?", 0);
+            let b = prompt("Второе число?", 0);
+            alert(Number(a) * Number(b));
+        }
+
+        function div() {
+            let a = prompt("Первое число?", 0);
+            let b = prompt("Второе число?", 0);
+            alert(Number(a) / Number(b));
+        }
+    </script>
+</body>
+
+</html>
