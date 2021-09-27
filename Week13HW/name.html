@@ -9,11 +9,25 @@
 </head>
 
 <body>
-
+    <button onclick="hello()" id="nameid">Hello</button>
     <script>
-        const message = 'Как тебя зовут?';
-        const name = prompt(message, 'Ivan');
-        alert(`Привет, ${name}!`);
+        function hello() {
+            let message = ("Как тебя зовут?");
+            let namepersonal = prompt(message, "Ivan");
+            alert(`Привет, ${namepersonal}!`);
+        }
+
+        let hello = function () {
+            let message = ("Как тебя зовут?");
+            let namepersonal = prompt(message, "Ivan");
+            alert(`Привет, ${namepersonal}!`);
+        }
+
+        let hello = () => {
+            let message = ("Как тебя зовут?");
+            let namepersonal = prompt(message, "Ivan");
+            alert(`Привет, ${namepersonal}!`);
+        }
     </script>
 </body>
 

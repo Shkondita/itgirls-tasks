@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <form name="search">
+        <label>Поиск:
+            <input type="text" name="search"> </label>
+        <input type="submit" value="Search!"> </form>
+    <hr>
+    <form name="search-person">Поиск по посетителям:
+        <table id="age-table">
+            <tr>
+                <td>Возраст:</td>
+                <td id="age-list">
+                    <label>
+                        <input type="radio" name="age" value="young">до 18</label>
+                    <label>
+                        <input type="radio" name="age" value="mature">18-50</label>
+                    <label>
+                        <input type="radio" name="age" value="senior">старше 50</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Дополнительно:</td>
+                <td>
+                    <input id="input1" type="text" name="info" value="1243">
+                    <input type="text" name="info">
+                    <input type="text" name="info"> </td>
+            </tr>
+        </table>
+        <input type="button" value="Search!"> </form>
+
+    <script>
+        let elem = document.getElementById("input1");
+        elem.value = ""
+        console.log(elem.value);
+    </script>
+</body>
+
+</html>
